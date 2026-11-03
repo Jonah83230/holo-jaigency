@@ -1,0 +1,7 @@
+node_modules/
+rushes/*
+public/*
+out/*
+!rushes/.gitkeep
+!public/.gitkeep
+!out/.gitkeep

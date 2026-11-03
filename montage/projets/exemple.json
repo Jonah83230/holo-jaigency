@@ -1,0 +1,28 @@
+{
+  "fps": 60,
+  "video": "r9252.mp4",
+  "pose": "r9252.pose.json",
+  "reps": "r9252.reps.json",
+  "segments": [
+    { "de": 9.6, "a": 14.5, "vitesse": 1 },
+    { "de": 14.5, "a": 23.7, "vitesse": 3 }
+  ],
+  "holo": { "face": "holo-face.mp4", "troisQuarts": "holo-34.mp4", "depuis": 23.7, "duree": 15, "vitesse": 1.1, "bascule": 1.6 },
+  "accroche": ["ATTENDS LA 6e REP…", "JE VAIS DISPARAÎTRE"],
+  "carte": { "titre": "SÉRIE ANALYSÉE", "phrase": "moi j'ai juste soulevé.", "question": "Tu voudrais le même rendu pour tes séances ?" },
+  "voix": {
+    "video": "r9318.mp4",
+    "coupes": [
+      { "de": 23.05, "a": 28.25 },
+      { "de": 32.04, "a": 34.1 },
+      { "de": 45.26, "a": 50.66 },
+      { "de": 60.82, "a": 64.4 },
+      { "de": 64.74, "a": 69.62 },
+      { "de": 74.0, "a": 77.0 }
+    ]
+  },
+  "credits": {
+    "avant": "code : Claude · détection du corps : Apple Vision, sur mon Mac",
+    "apres": "animation IA (Higgsfield) sur mon vrai mouvement · code : Claude"
+  }
+}

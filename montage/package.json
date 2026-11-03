@@ -1,0 +1,33 @@
+{
+  "name": "holo-jaigency",
+  "private": true,
+  "description": "Ta série de muscu comptée, mesurée, puis transformée en hologramme (Remotion + Apple Vision), piloté par Claude Code.",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "installer-navigateur": "node scripts/installer-navigateur.mjs",
+    "sons": "node scripts/sons.mjs",
+    "convertir": "node scripts/convertir.mjs",
+    "pose": "node scripts/pose.mjs",
+    "reps": "node scripts/reps.mjs",
+    "extrait": "node scripts/extrait.mjs",
+    "silences": "node scripts/silences.mjs",
+    "apercu": "node scripts/apercu.mjs",
+    "rendu": "node scripts/rendu.mjs",
+    "verifier": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "@remotion/google-fonts": "4.0.534",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}
